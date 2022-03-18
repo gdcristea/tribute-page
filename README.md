@@ -19,9 +19,9 @@ View the optimal layout depending on their device's screen size
 
 ### Links
 
-- Solution URL: https://github.com/gdcristea/product-landing-page
+- Solution URL: https://github.com/gdcristea/tribute-page
 
-- Live Site URL: https://gdcristea.github.io/product-landing-page/
+- Live Site URL: https://gdcristea.github.io/tribute-page/
 
 ## Author
 
