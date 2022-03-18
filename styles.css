@@ -1,0 +1,91 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px; /*1rem = 10px*/
+}
+
+img {
+    max-width: 100%; /*responsive*/
+}
+  
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    text-align: center;
+    color: #333;
+}
+  
+h1 {
+    font-size: 3rem;
+}
+  
+main {
+    margin: 3rem 0.8rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: #eee;
+}
+  
+figure {
+    background: white;
+    padding: 1rem;
+}
+  
+figcaption {
+    margin: 1.5rem 0 0.5rem;
+}
+  
+#headline {
+    margin: 2.5rem 0;
+}
+  
+ul {
+    max-width: 55rem; /* "width" vs "max-width" - The difference is following. width keeps the size of the object stable. Lets say you put width: 700px for an image. ... At the same time, when you set max-width:700px it will re-size up to 700px but when the screen goes smaller and the images doesn't fit in the screen it will automatically re-size it to fit the screen. */
+    margin: 0 auto 3rem; /*auto left and right in order to centre it*/
+    text-align: justify;
+    line-height: 1.8;
+}
+  
+li {
+    margin: 1.6rem 0;
+}
+  
+blockquote {
+    font-style: italic;
+    max-width: 55rem;
+    margin: 0 auto 5rem;
+    text-align: justify;
+}
+  
+a {
+    color: #477ca7;
+}
+
+a:hover, 
+a:focus {
+    color: #74638f;
+    opacity: .75;
+}
+
+@media (min-width: 800px) {
+    #headline {
+        margin: 5rem 0;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+}
